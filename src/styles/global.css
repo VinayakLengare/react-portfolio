@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Section Card Style */
+section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #c4c1c1;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.7;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+/* List */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  section {
+    margin: 20px 15px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}
