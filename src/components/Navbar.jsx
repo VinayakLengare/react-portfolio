@@ -1,8 +1,11 @@
+import "./Navbar.css";
+
 function Navbar() {
   return (
-    <nav>
-      <h2>Vinayak</h2>
-      <ul>
+    <nav className="navbar">
+      <div className="logo">Vinayak</div>
+
+      <ul className="nav-links">
         <li>Home</li>
         <li>About</li>
         <li>Projects</li>
