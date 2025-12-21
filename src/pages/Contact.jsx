@@ -1,14 +1,22 @@
+import "./Contact.css";
+
 function Contact() {
   return (
-    <section>
+    <section className="contact" id="contact">
       <h2>Contact</h2>
-      <p>If you would like to connect with me, feel free to reach out.</p>
-
-      <ul>
-        <li>Email: vinayak@example.com</li>
-        <li>GitHub: https://github.com/your-username</li>
-        <li>LinkedIn: https://linkedin.com/in/your-profile</li>
-      </ul>
+      <p>Email: vinayak@example.com</p>
+      <p>
+        GitHub:{" "}
+        <a href="https://github.com/yourusername" target="_blank">
+          github.com/yourusername
+        </a>
+      </p>
+      <p>
+        LinkedIn:{" "}
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">
+          linkedin.com/in/yourprofile
+        </a>
+      </p>
     </section>
   );
 }

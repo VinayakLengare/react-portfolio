@@ -1,0 +1,19 @@
+.about {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.about h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.about p {
+  font-size: 16px;
+  text-align: justify;
+  color: #555;
+  line-height: 1.8;
+}

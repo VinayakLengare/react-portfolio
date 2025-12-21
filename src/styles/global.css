@@ -16,3 +16,6 @@ section {
   margin: 60px auto;
   padding: 20px;
 }
+html {
+  scroll-behavior: smooth;
+}
