@@ -1,22 +1,29 @@
 import "./Contact.css";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Contact() {
   return (
     <section className="contact" id="contact">
       <h2>Contact</h2>
-      <p>Email: vinayak@example.com</p>
-      <p>
-        GitHub:{" "}
-        <a href="https://github.com/yourusername" target="_blank">
-          github.com/yourusername
+      <p>Feel free to connect with me:</p>
+
+      <div className="contact-links">
+        <a
+          href="https://github.com/VinayakLengare"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub /> GitHub
         </a>
-      </p>
-      <p>
-        LinkedIn:{" "}
-        <a href="https://linkedin.com/in/yourprofile" target="_blank">
-          linkedin.com/in/yourprofile
+
+        <a
+          href="https://www.linkedin.com/in/vinayak-lengare-331b33369/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin /> LinkedIn
         </a>
-      </p>
+      </div>
     </section>
   );
 }
