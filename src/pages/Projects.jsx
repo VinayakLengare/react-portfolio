@@ -9,17 +9,24 @@ function Projects() {
         <div className="project-card">
           <h3>React Portfolio Website</h3>
           <p>
-            A personal portfolio website built using React to showcase my
-            skills, projects, and contact details. Fully responsive and
-            component-based.
+            Built a fully responsive personal portfolio using React functional
+            components, showcasing projects, skills, and professional UI.
           </p>
         </div>
 
         <div className="project-card">
-          <h3>Upcoming Project</h3>
+          <h3>Real-Time Weather App</h3>
           <p>
-            This section will include more real-world projects as I continue to
-            learn and grow as a frontend developer.
+            A React app fetching live weather data from OpenWeather API with
+            state management using React Hooks, input validation, and error
+            handling.
+          </p>
+        </div>
+        <div className="project-card">
+          <h3>Smart Expense Tracker</h3>
+          <p>
+            Tracks income and expenses, calculates balance in real-time using
+            JavaScript and Local Storage, with a clean and responsive UI.
           </p>
         </div>
       </div>
