@@ -1,56 +1,106 @@
-# React Portfolio Website
+# 🚀 React Portfolio Website
 
-A responsive and professional personal portfolio website built using **React**.  
-This project showcases my profile, skills, projects, and contact information in a clean and modern UI.
-
----
-
-## 🚀 Features
-
-- Single-page portfolio with smooth scrolling navigation
-- Responsive design (mobile & desktop friendly)
-- Component-based architecture using React
-- Separate CSS files for each component and page
-- Reusable UI components (Navbar, Footer)
-- Social media integration (GitHub & LinkedIn)
-- Clean and professional layout suitable for placements
+A modern, responsive, and placement-ready personal portfolio website built using React.js to showcase my skills, projects, and contact information.
 
 ---
 
-## 🛠️ Tech Stack
+## 🔗 Live Preview
 
-- **React**
-- **JavaScript (ES6)**
-- **HTML5**
-- **CSS3**
-- **Vite**
-- **Git & GitHub**
+🌐 Live Demo:  
+https://vinayakportfolio-b7baed.netlify.app/
+
+📂 GitHub Repository:  
+https://github.com/VinayakLengare/react-portfolio
+
+---
+
+## 🛠 Tech Stack
+
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- React Router
+- Vite
+
+---
+
+## ✨ Features
+
+- Fully Responsive Design (Mobile + Desktop)
+- Clean & Modern UI
+- Smooth Navigation using React Router
+- Separate Components for Each Section
+- Organized Folder Structure
+- Deployed on Netlify
 
 ---
 
 ## 📂 Project Structure
 
-```text
-src/
- ├── components/
- │    ├── Navbar.jsx
- │    ├── Navbar.css
- │    ├── Footer.jsx
- │    └── Footer.css
- │
- ├── pages/
- │    ├── Home.jsx
- │    ├── Home.css
- │    ├── About.jsx
- │    ├── About.css
- │    ├── Projects.jsx
- │    ├── Projects.css
- │    ├── Contact.jsx
- │    └── Contact.css
- │
- ├── styles/
- │    └── global.css
- │
- ├── App.jsx
- │
- └── main.jsx
+react-portfolio/
+│── public/  
+│── src/  
+│   ├── components/  
+│   ├── pages/  
+│   ├── App.jsx  
+│   ├── main.jsx  
+│   └── index.css  
+│── package.json  
+│── README.md  
+
+---
+
+## 📌 Pages Included
+
+- Home  
+- About  
+- Projects  
+- Contact  
+
+---
+
+## ⚙ Installation & Setup
+
+1️⃣ Clone the repository
+
+git clone https://github.com/VinayakLengare/react-portfolio.git
+
+2️⃣ Navigate to project folder
+
+cd react-portfolio
+
+3️⃣ Install dependencies
+
+npm install
+
+4️⃣ Start development server
+
+npm run dev
+
+---
+
+## 📈 Purpose of This Project
+
+This project demonstrates:
+
+- Component-Based Architecture
+- Client-Side Routing
+- Responsive Layout Design
+- Clean UI Structure
+- Deployment Process (Netlify)
+- Git & GitHub Version Control
+
+---
+
+## 👨‍💻 Author
+
+Vinayak Lengare  
+MCA Graduate | Aspiring React Developer  
+
+GitHub: https://github.com/VinayakLengare  
+LinkedIn: https://www.linkedin.com/in/vinayak-lengare-331b33369  
+
+---
+
+⭐ If you found this project useful, feel free to give it a star.
