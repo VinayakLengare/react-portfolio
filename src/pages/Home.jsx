@@ -6,10 +6,15 @@ function Home() {
       <h1>
         Hi, I’m <span>Vinayak Lengare</span>
       </h1>
-      <p>
-        I am a Full Stack Developer focused on building clean, responsive, and
-        user-friendly web applications.
-      </p>
+      <h3>Frontend Developer </h3>
+
+<p>
+  I build clean, responsive, and user-friendly web applications using
+  React.js, JavaScript, HTML, and CSS. <br />
+  I focus on creating reusable
+  components, smooth UI interactions, and integrating APIs to deliver
+  practical, real-world solutions.
+</p>
     </section>
   );
 }

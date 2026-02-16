@@ -3,30 +3,37 @@ import "./About.css";
 function About() {
   return (
     <section className="about" id="about">
-      <h2>About Me</h2>
-      <p>
-        I am a Full Stack Developer focused on building clean, responsive, and
-        user-friendly web applications using React.js for frontend and Java +
-        Spring Boot for backend. <br />
-        I specialize in creating reusable components, managing state with React
-        Hooks, integrating REST APIs, and designing scalable backend services. I
-        enjoy solving real-world problems through code, optimizing both frontend
-        performance and backend efficiency, and maintaining clean, structured
-        code with Git version control. <br />
-        I have completed projects like React Portfolio Website, Real-Time
-        Weather App, and Smart Expense Tracker, showcasing my ability to handle
-        full-stack development, API integration, and responsive UI. <br />
-        I am eager to contribute to impactful projects as a Full Stack Developer
-        and continuously grow my technical expertise in modern web development.
-        <br />
-        <br />
-        <b>Technical Skills:</b> <br />
-        React.js, JavaScript (ES6+), HTML5, CSS3, Bootstrap,
-        TailwindCSS, <br />
-        Java (OOP, Collections, Multithreading), Spring Boot (REST
-        APIs, MVC), <br />
-        MySQL, Git & GitHub.
-      </p>
+    <h2>About Me</h2>
+
+<p>
+  I am a <strong>Frontend Developer (Fresher)</strong> with hands-on experience in building
+  responsive and user-friendly web applications using <strong>HTML, CSS, JavaScript,
+  and React.js</strong>  I focus on writing clean, structured code and developing reusable
+  React components.
+</p>
+<br />
+<p>
+  I have experience working with <strong>React functional components</strong>,
+  <strong>hooks (useState, useEffect)</strong>, and <strong>REST API integration</strong>
+  to build practical frontend projects. I also have basic knowledge of
+  <strong>Java and Spring Boot</strong>, which helps me understand backend workflows and
+  collaborate effectively in full-stack environments.
+</p>
+<br />
+<p>
+  I have developed projects including a <strong>Personal Portfolio Website</strong>,
+  <strong>Real-Time Weather Application</strong>, and a
+  <strong>Task Management System</strong>, with a strong focus on responsive design,
+  usability, and real-world problem-solving.
+</p>
+
+<p>
+  I am currently seeking an <strong>entry-level Frontend Developer role</strong> where I
+  can apply my skills, learn from experienced developers, and contribute to real-world
+  products.
+</p>
+
+
     </section>
   );
 }
